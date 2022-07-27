@@ -1,0 +1,36 @@
+.screen-container {
+  display: flex;
+  flex-direction: column;
+  text-align: center;
+  justify-content: center;  
+  width: 30%;
+  margin-left: auto;
+  margin-right: auto;
+  margin-top: 8rem;
+  box-shadow: 0px 2px 5px 0px gray;
+  border-radius: 5px;
+  padding: 1rem;
+}
+
+.screen-title {
+    font-size: 2.5rem;
+    text-decoration: underline;
+    font-family: "Roboto", sans-serif;
+}
+
+.auth-btn {
+  margin-top: 1rem;
+  cursor: pointer;
+}
+
+@media screen and (max-width: 1020px) {
+  .screen-container {
+    width: 60%;
+  }
+}
+
+@media screen and (max-width: 600px) {
+  .screen-container {
+    width: 80%;
+  }
+}
